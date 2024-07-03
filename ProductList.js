@@ -1,3 +1,6 @@
+
+//Shivansh Singh
+//import Libraries
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import InfiniteScroll from 'react-infinite-scroll-component';
@@ -19,7 +22,7 @@ const ProductList = () => {
       console.error('Error fetching products:', error);
     }
   };
-
+//Delete functionality
   const deleteProduct = async (productId) => {
     try {
       await axios.delete(`https://dummyjson.com/products/${productId}`);
