@@ -1,0 +1,25 @@
+.App {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .product {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 5px;
+    max-width: 600px;
+    text-align: left;
+  }
+  
+  .product h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .product p {
+    font-size: 1em;
+    color: #555;
+  }
+  
